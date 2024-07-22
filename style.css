@@ -1,0 +1,77 @@
+*{
+    --main-clr : #191924
+}
+
+.my-nav{
+    background-color: var(--main-clr);
+
+
+}
+li > a:hover{
+    color:  rgb(133, 76, 230) !important;
+}
+.git-btn{
+color:  rgb(106, 28, 240) !important;
+border: 2px solid rgba(115, 39, 247, 0.587) !important;
+
+}
+
+.git-btn:hover{
+    color:  rgb(255, 255, 255) !important;
+    border: 2px solid rgb(118, 44, 244) !important;
+    
+    }   
+    
+
+
+.hero-section{
+    background-color: var(--main-clr);
+    height: 91vh;
+
+}
+
+
+.typewriter {
+    display: inline-block;
+    overflow: hidden; /* Ensures text doesn't overflow */
+    border-right: 2px solid orange; /* Cursor effect */
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+  
+  #typewriter-cursor {
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
+  
+
+  .text-clr{
+  color:   rgb(133, 76, 230) !important;
+  }
+
+  .my-img{
+   border: 2px solid rgb(133, 76, 230) !important;
+  }
+
+  .header-height{
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resume-btn{
+    color: white;
+     background-image:linear-gradient(to right, #d600ff, #9000ff);
+     border: none;
+     transition: all 0.5s ease-out;
+  }
+  .resume-btn:hover{
+    color: white;
+     background-color:rgb(133, 76, 230);
+     border: none;
+    transform: scale(1.05);
+  }
+
