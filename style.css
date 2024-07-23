@@ -75,3 +75,15 @@ border: 2px solid rgba(115, 39, 247, 0.587) !important;
     transform: scale(1.05);
   }
 
+
+  /* skills section */
+
+
+  .skill-sec{
+    background-image:linear-gradient(to bottom, #1c1c27,#341a41 );
+   
+  }
+  .grey-clr{
+    color: grey;
+  }
+
